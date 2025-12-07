@@ -1,0 +1,57 @@
+{
+  "name": "vs-code-pro",
+  "version": "1.0.0",
+  "description": "Профессиональный курс веб-разработки - создание сайтов с нуля",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open",
+    "dev": "live-server --port=3000",
+    "build": "echo 'Build completed'",
+    "deploy": "gh-pages -d .",
+    "lint:html": "html-validate *.html",
+    "lint:css": "stylelint \"**/*.css\"",
+    "lint:js": "eslint \"**/*.js\""
+  },
+  "keywords": [
+    "веб-разработка",
+    "обучение",
+    "html",
+    "css",
+    "javascript",
+    "курс",
+    "программирование"
+  ],
+  "author": {
+    "name": "Senior Developer",
+    "email": "ваш@email.com",
+    "url": "https://github.com/yourusername"
+  },
+  "license": "MIT",
+  "homepage": "https://yourusername.github.io/vs-code-pro",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/vs-code-pro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/vs-code-pro/issues"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "gh-pages": "^5.0.0",
+    "eslint": "^8.47.0",
+    "stylelint": "^15.10.3",
+    "html-validate": "^8.2.0"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
